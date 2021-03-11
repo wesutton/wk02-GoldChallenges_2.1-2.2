@@ -18,3 +18,25 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+const baseURL = 'https://rickandmortyapi.com/api/character'
+
+var imageOne = document.querySelector('imageOne'); 
+console.log("imageOne", imageOne);
+
+async function fetchImage() {
+    const response = await fetch(baseURL);
+    const json = await response.json();
+    displayImage(json);
+}
+
+var imageTwo = document.querySelector('imageTwo'); 
+console.log("imageOne", imageTwo);
+
+async function fetchImage() {
+    const response = await fetch(baseURL);
+    const json = await response.json();
+    displayImage(json);
+}
+
+
