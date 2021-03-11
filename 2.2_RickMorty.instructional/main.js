@@ -40,3 +40,4 @@ async function fetchImage() {
 }
 
 
+// ! was unable to find a way to display the images. also tried doing it similar to the star wars API

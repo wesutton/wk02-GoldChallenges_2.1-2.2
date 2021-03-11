@@ -1,1 +1,19 @@
 /* STYLE HERE */
+
+#imageOne {
+    border: 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#imageTwo {
+     border: 1px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+
+
+}
